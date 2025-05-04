@@ -1,27 +1,27 @@
 {
-    //
+    
     // union types 
     // string literal types
     // type FrontendDeveloper = 'fakibazDeveloper' | 'juniorDeveloper'
 
     // type FullstackDeveloper = 'frontendDeveloper' | 'expertDeveloper'
 
-    // type Developer =  FrontendDeveloper | FullstackDeveloper
+    type Developer =  FrontendDeveloper | FullstackDeveloper
 
     // const newDeveloper:FrontendDeveloper = "juniorDeveloper"
 
-    // type User = {
-    //     name:string;
-    //     email?:string;
-    //     gender:"male" | "female";
-    //     bloodGroup:'O+' | 'A+' | 'AB+'
-    // }
+    type User = {
+        name:string;
+        email?:string;
+        gender:"male" | "female";
+        bloodGroup:'O+' | 'A+' | 'AB+'
+    }
 
-    // const user1:User = {
-    //     name:"persian",
-    //     gender:"male",
-    //     bloodGroup:'O+'
-    // }
+    const user1:User = {
+        name:"persian",
+        gender:"male",
+        bloodGroup:'O+'
+    }
 
     type FrontendDeveloper = {
         skills:string[];
